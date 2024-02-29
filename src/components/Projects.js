@@ -11,34 +11,22 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Finance Tech",
       description: "Design & Development",
       imgUrl: projImg1,
+      url : "https://my-finance-tech.netlify.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "To-Do-App",
+      description: "Task Management",
       imgUrl: projImg2,
+      url : "https://mitali-to-do-app.netlify.app/"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "The Brew Box",
+      description: "Business Startup",
       imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      url : "https://thebrewbox.netlify.app/"
     },
   ];
   return (
